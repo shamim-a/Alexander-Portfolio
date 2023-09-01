@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  height: auto;
+}
+
+.header {
+  background: white;
+  box-shadow: 0px 3px 6px 0px #0c1a2351;
+  height: 18px;
+  width: auto;
+}
+
+.about_header {
+  background: #f9f8fe;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.about_header h2 {
+  color: #413a5d;
+  font-size: 44px;
+  line-height: 56px;
+  font-weight: 500;
+}
+
+.back_home {
+  padding: 12px 0px;
+}
+
+.back_home a {
+  color: #413a5d;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.back_home a:hover {
+  transition: 700ms;
+  color: blueviolet;
+}
+
+.back_home a i {
+  font-size: 12px;
+  margin: 0px 10px;
+  font-weight: 600;
+}
+
+.cv2-img {
+  width: 68%;
+  margin-right: 40px;
+}
+
+.cv2-img img {
+  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+}
+
+.cv-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+ul li,
+ol li {
+  margin: 10px 28px;
+  list-style: none;
+  color: #413a5d;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+ul li span,
+ol li span {
+  color: #959499;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.social-net {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-net a {
+  margin-left: 28px;
+  font-size: 25px;
+  color: #8e8d91;
+}
+
+.social-net .hiphen {
+  border: 1px solid;
+  height: 2%;
+  width: 60px;
+  margin: 0px 20px;
+  color: #8e8d91;
+}
+
+.job-intro {
+  background: #f9f8fe;
+}
+
+.my-designs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.designs {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.designs i {
+  color: blueviolet;
+  font-size: 28px;
+}
+
+.design-details {
+  margin-left: 30px;
+}
+
+.design-details h2 {
+  color: #413a5d;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+.resume .design-details p {
+  margin: 0px 0px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #959499;
+}
+
+/* progress bar  */
+
+.progress-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.progress-1 {
+  width: 42%;
+  margin: 50px auto;
+}
+
+.progress-1 p {
+  margin-top: 16px;
+  padding-top: 10px;
+}
+
+.skills {
+  width: 48%;
+  margin: 50px 20px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-title {
+  color: #413a5d;
+  font-size: 20px;
+  font-weight: 400px;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  background-color: #f0f0f0;
+  height: 11px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.progress {
+  background-color: blueviolet;
+  height: 100%;
+  border-radius: 15px;
+  /* width: 70%; */
+  transition: width 0.5s ease;
+}
+
+.progress-ui {
+  width: 55%;
+}
+
+.progress-idea {
+  width: 68%;
+}
+
+.progress-branding {
+  width: 43%;
+}
+
+.progress-web {
+  width: 75%;
+}
+
+/* Subscribe  */
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f8fe;
+}
+
+.subscribe-branding {
+  width: 33%;
+  height: auto;
+}
+
+.subscribe-branding img {
+  width: 100%;
+  height: 100%;
+}
+
+.subscribe-branding .subscribe-details {
+  margin: 0px 20px;
+}
+
+.subscribe-details p {
+  color: #413a5d;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  margin-bottom: 35px;
+}
+
+.subscribe-details input {
+  border-radius: 5px 0px 0px 5px;
+  height: 45px;
+  width: 60%;
+  border: 1px solid whitesmoke;
+}
+
+.subscribe-details button {
+  font-size: 15px;
+  height: 45px;
+  width: 33%;
+  background-color: blueviolet;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+}
+
+.subscribe-details button a {
+  color: #f0f0f0;
+}
+
+.acheivements {
+  margin: 20px 0px;
+}
+
+.achievement-head {
+  margin: 20px 0px;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.my-acheivement {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.my-acheive {
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  margin: 10px;
+  padding: 30px;
+  width: 43%;
+}
+
+.my-acheive i {
+  font-size: 22px;
+  color: blueviolet;
+  margin-bottom: 20px;
+}
+
+.my-acheivement .my-acheive h4 {
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.my-acheivement .my-acheive p {
+  font-size: 17px;
+  left: 23px;
+}
