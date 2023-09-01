@@ -299,7 +299,7 @@ ol li span {
   border-radius: 12px;
   margin: 10px;
   padding: 30px;
-  width: 42%;
+  width: 43%;
 }
 
 .my-acheive i {
@@ -388,3 +388,5 @@ textarea:focus {
   color: #f9f8fe;
   outline: 2px solid #9a59d6;
 }
+
+/* Contact CSS End  */
