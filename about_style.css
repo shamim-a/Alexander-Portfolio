@@ -319,3 +319,72 @@ ol li span {
   font-size: 17px;
   left: 23px;
 }
+
+/* Contact CSS Start  */
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  padding: 25px;
+}
+
+.contact .call-details {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.call-details i {
+  margin-right: 30px;
+  padding: 13px 0px;
+  color: blueviolet;
+  font-size: 16px;
+}
+
+.call-details .call h2 {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 500;
+  margin-top: 8px;
+  color: #413a5d;
+}
+
+.call-details .call p,
+address {
+  margin: 10px 0px;
+  color: #8f8e91;
+}
+
+.send-msg table tr td {
+  margin-right: 18px;
+  width: 100%;
+}
+
+.send-msg table tr td input {
+  border-radius: 8px;
+  height: 30px;
+  width: 250px;
+  background: #f1f1f3;
+  border-style: none;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  color: #413a5d;
+}
+
+.send-msg table textarea {
+  border-radius: 8px;
+  width: 250px;
+  background: #f1f1f3;
+  border-style: none;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  color: #413a5d;
+}
+
+input:focus,
+textarea:focus {
+  color: #f9f8fe;
+  outline: 2px solid #9a59d6;
+}
