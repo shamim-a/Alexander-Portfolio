@@ -112,14 +112,13 @@ a {
   line-height: 22px;
 }
 
-.intro-info .btn-primary {
-  margin-top: 15px;
+.btn-primary {
   color: whitesmoke;
   padding: 16px 45px;
   background-color: blueviolet;
 }
 
-.intro-info .btn-secondary {
+.btn-secondary {
   border: 2px solid blueviolet;
   padding: 15px 45px;
 }
@@ -191,6 +190,7 @@ a {
 
 .clear-fix {
   clear: both;
+  height: 20px;
 }
 
 .my-desc .button a {
@@ -487,6 +487,15 @@ a {
   margin: 22px;
   padding: 15px;
   text-align: center;
+}
+
+.touch-btn {
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.get-in-touch .touch-btn a {
+  margin-right: 22px;
 }
 
 /* Get in touch css end  */
